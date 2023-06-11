@@ -91,7 +91,7 @@ title_label.grid(column=1, row=0)
 
 # Canvas setup
 canvas = Canvas(width=512, height=512, bg=BG_COLOR, highlightthickness=0)
-bg_image = PhotoImage(file='hehe.png')
+bg_image = PhotoImage(file='pomodoro_tomato.png')
 canvas.create_image(256, 256, image=bg_image)
 timer_text = canvas.create_text(
     256, 350, text='00:00', fill='#FFFFFF', font=('MS Sans Serif', 80, 'bold'))
